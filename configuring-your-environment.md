@@ -23,7 +23,7 @@ Apple Pay 中的商家 ID 用于标识你能够接受付款。与商家 ID 相�
 
 在 Xcode 的 capabilities 面板中为应用启用 Apple Pay 功能。在 Apple Pay 这一行中点击开启，然后指定该应用使用的商家 ID 即可。
 
-![示例图](.\enable_apple_pay_2x.png)
+![示例图](images/enable_apple_pay_2x.png)
  
 > 注意：
 > > 在故障排除过程中，手动的启动 Apple Pay 会让工作更容易。下面的步骤可以手动启用 Apple Pay：

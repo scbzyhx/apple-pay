@@ -3,7 +3,7 @@ Apple Pay 是一项可以让用户安全便捷地为现实世界的物品或服�
 
 应用中数字物品或者服务的支付请参考 [《In-App 支付编程指南》](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Introduction.html#//apple_ref/doc/uid/TP40008267)
 
-![Apple Pay 的工作架构](./payment_intro_2x.png)
+![Apple Pay 的工作架构](images/payment_intro_2x.png)
 
 
 使用 Apple Pay 的应用需要在 Xcode 中启用 Apple Pay 功能。首先，你需要注册一个商家 ID 并生成一个加密密钥。这个密钥用于加密发送至服务器的支付信息。

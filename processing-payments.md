@@ -16,7 +16,7 @@
 
 图 5-1 付款数据的数据结构
 
-![付款数据的数据结构](payment_data_structure.png)
+![付款数据的数据结构](images/payment_data_structure.png)
 
 更多关于付款数据的数据结构，请参考[支付令牌的格式](https://developer.apple.com/library/ios/documentation/PassKit/Reference/PaymentTokenJSON/PaymentTokenJSON.html#//apple_ref/doc/uid/TP40014929)。
 
