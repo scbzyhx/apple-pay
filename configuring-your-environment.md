@@ -1,8 +1,8 @@
-# 配置你的环境
+# 配置你的开发环境
 
 Apple Pay 中的商家 ID 用于标识你能够接受付款。与商家 ID 相关联的公钥与证书用于在支付过程中加密支付信息。要想使用 Apple Pay，你首先需要注册一个商家 ID 并且配置它的证书。
 
-### 注册商家 ID
+## 注册商家 ID
 
  1. 在开发者中心选择[证书、标识符及描述文件](https://developer.apple.com/account/ios/identifiers/merchant/merchantLanding.action)。
  2. 在标识符下选择商家 ID。
@@ -11,8 +11,8 @@ Apple Pay 中的商家 ID 用于标识你能够接受付款。与商家 ID 相�
  5. 检查设置然后点击注册。
  6. 点击完成。
  
-### 为商家 ID 配置证书
- 1. 在开发者中心选择[证书、标识符 及调置](https://developer.apple.com/account/ios/identifiers/merchant/merchantLanding.action)。
+## 为商家 ID 配置证书
+ 1. 在开发者中心选择[证书、标识符 及描述文件](https://developer.apple.com/account/ios/identifiers/merchant/merchantLanding.action)。
  2. 在标识符下选择商家 ID。
  3. 从列表中选择商家 ID，点击编辑。
  4. 点击创建证书， 根据提示生成你的证书签名请求（CSR），然后点击继续。
@@ -23,15 +23,15 @@ Apple Pay 中的商家 ID 用于标识你能够接受付款。与商家 ID 相�
 
 在 Xcode 的 capabilities 面板中为应用启用 Apple Pay 功能。在 Apple Pay 这一行中点击开启，然后指定该应用使用的商家 ID 即可。
 
-![TODO](https://developer.apple.com/library/ios/ApplePay_Guide/Art/enable_apple_pay_2x.png)
+![示例图](.\enable_apple_pay_2x.png)
  
-注意事项：
-在故障排除过程中，手动的启动 Apple Pay 会让工作更容易。下面的步骤可以手动启用 Apple Pay：
- 1. 在开发者中心选择[证书、标识符 及调置](https://developer.apple.com/account/ios/identifiers/merchant/merchantLanding.action)。
- 2. 在标识符下选择应用 ID。
- 3. 从列表中选择应用 ID，然后点击编辑。
- 4. 选择 Apple Pay，然后点击编辑。
- 5. 选择你使用的商家 ID，然后点击继续。
- 6. 查看设置，然后点击分配 (Assign)。
- 7. 点击完成。
+> 注意：
+> > 在故障排除过程中，手动的启动 Apple Pay 会让工作更容易。下面的步骤可以手动启用 Apple Pay：
+ > > 1. 在开发者中心选择[证书、标识符 及调置](https://developer.apple.com/account/ios/identifiers/merchant/merchantLanding.action)。
+ > > 2. 在标识符下选择应用 ID。
+ > > 3. 从列表中选择应用 ID，然后点击编辑。
+ > > 4. 选择 Apple Pay，然后点击编辑。
+ > > 5. 选择你使用的商家 ID，然后点击继续。
+ > > 6. 查看设置，然后点击分配 (Assign)。
+ > > 7. 点击完成。
     
